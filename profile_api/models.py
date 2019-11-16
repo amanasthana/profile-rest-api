@@ -33,7 +33,7 @@ class UserProfile(AbstractBaseUser,PermissionsMixin):
 
 #user profile manager class initialised
     objects=UserProfileManager()
-    
+
     USERNAME_FIELD= 'email'
     REQUIRED_FIELDS=['name',]
 
